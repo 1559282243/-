@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>入冬不下雪的空间</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- 添加 jsrsasign 库 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsrsasign/10.5.27/jsrsasign-all-min.js"></script>
+</head>
+<body>
+    <!-- 标题区域 -->
+    <header class="header">
+        <div class="header-container">
+            <h1>入冬不下雪</h1>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">首页</a>
+                <a href="#about" class="nav-link">关于</a>
+                <a href="#portfolio" class="nav-link">作品集</a>
+                <a href="#ai-assistant" class="nav-link">AI助手</a>
+                <a href="#contact" class="nav-link">联系我</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 内容区域 -->
+    <main class="main-content">
+        <!-- 首页区域 -->
+        <section id="home" class="section active">
+            <div class="home-content">
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-image">
+                            <img src="photograph/666.png" alt="入冬不下雪">
+                        </div>
+                        <div class="profile-info">
+                            <h1 class="profile-name">入冬不下雪</h1>
+                            <p class="profile-title">抖音短视频博主</p>
+                        </div>
+                    </div>
+                    <div class="profile-content">
+                        <div class="profile-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-heart"></i>
+                                <span>短视频创作者</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-music"></i>
+                                <span>音乐爱好者</span>
+                            </div>
+                        </div>
+                        <div class="profile-bio">
+                            <p>欢迎来到我的空间！我是一名充满活力的短视频创作者，热爱音乐和创作。</p>
+                            <p>希望通过我的作品能给大家带来快乐和温暖。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于我区域 -->
+        <section id="about" class="section">
+            <div class="about-content">
+                <h2>关于我</h2>
+                <div class="intro-section">
+                    <div class="intro-content">
+                        <div class="intro-text">
+                            <p class="title">合作+</p>
+                            
+                            <div class="contact-group">
+                                <p class="contact-info">✨ vx15864511810 (非本人)</p>
+                                <p class="contact-info">✨ Fzx18660668352 (非本人）</p>
+                            </div>
+
+                            <p class="wish">希望听歌的你天天开心"^~</p>
+                            
+                            <div class="notice">
+                                <p class="daily">小号发日常：耶耶耶大声笑怎么了?</p>
+                                <p class="important">私信不闲聊! 回复评论是礼貌，骚扰我就是你的不对了</p>
+                                <p class="note">点歌在评论区或者私信会看到的，不要着急</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 作品集区域 -->
+        <section id="portfolio" class="section">
+            <div class="portfolio-content">
+                <h2>作品集</h2>
+                <div class="portfolio-grid">
+                    <!-- 视频1 -->
+                    <div class="portfolio-item">
+                        <video controls>
+                            <source src="videos/333.mp4" type="video/mp4">
+                        </video>
+                        <h3>作品标题1</h3>
+                    </div>
+                    <!-- 视频2 -->
+                    <div class="portfolio-item">
+                        <video controls>
+                            <source src="videos/222.mp4" type="video/mp4">
+                        </video>
+                        <h3>作品标题2</h3>
+                    </div>
+                    <!-- 视频3 -->
+                    <div class="portfolio-item">
+                        <video controls>
+                            <source src="videos/111.mp4" type="video/mp4">
+                        </video>
+                        <h3>作品标题3</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI助手区域 -->
+        <section id="ai-assistant" class="section">
+            <div class="ai-chat">
+                <h2>AI助手</h2>
+                <div class="chat-container">
+                    <div class="chat-messages" id="chatMessages">
+                        <!-- 移除这个初始消息 -->
+                    </div>
+                    <div class="chat-input-area">
+                        <input type="text" id="userInput" placeholder="输入你的问题...">
+                        <button id="sendButton">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系方式区域 -->
+        <section id="contact" class="section">
+            <div class="contact-content">
+                <h2>联系我</h2>
+                <div class="social-section">
+                    <div class="social-links">
+                        <a href="https://v.douyin.com/iDGkLCVL/" class="social-link douyin" target="_blank">
+                            <i class="fab fa-tiktok"></i>
+                            <span>抖音</span>
+                        </a>
+                        <a href="#" class="social-link bilibili" target="_blank">
+                            <i class="fab fa-bilibili"></i>
+                            <span>哔哩哔哩</span>
+                        </a>
+                        <a href="https://static-play.kg.qq.com/node/personal?uid=619c9d81222c368236&shareUid=639e9884242c308b3049&chain_share_id=HqHWXHas7FbVL8gp7Jh84SHASzFhIDJZpAWM0pR68FFgFc3eg5Y8dQ&pageId=homepage_guest" class="social-link kge" target="_blank">
+                            <i class="fas fa-microphone"></i>
+                            <span>全民K歌</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
